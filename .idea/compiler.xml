@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="CompilerConfiguration">
+    <annotationProcessing>
+      <profile default="true" name="Default" enabled="true" />
+    </annotationProcessing>
+    <bytecodeTargetLevel>
+      <module name="article-controller_main" target="1.8" />
+      <module name="article-controller_test" target="1.8" />
+      <module name="article-domain_main" target="1.8" />
+      <module name="article-domain_test" target="1.8" />
+      <module name="article-repository_main" target="1.8" />
+      <module name="article-repository_test" target="1.8" />
+      <module name="article-service_main" target="1.8" />
+      <module name="article-service_test" target="1.8" />
+      <module name="article-vo_main" target="1.8" />
+      <module name="article-vo_test" target="1.8" />
+      <module name="article_main" target="1.8" />
+      <module name="article_test" target="1.8" />
+      <module name="boot_main" target="1.8" />
+      <module name="boot_test" target="1.8" />
+      <module name="captcha_main" target="1.8" />
+      <module name="captcha_test" target="1.8" />
+      <module name="common_main" target="1.8" />
+      <module name="common_test" target="1.8" />
+      <module name="core_main" target="1.8" />
+      <module name="core_test" target="1.8" />
+      <module name="framework_main" target="1.8" />
+      <module name="framework_test" target="1.8" />
+      <module name="search_main" target="1.8" />
+      <module name="search_test" target="1.8" />
+      <module name="security-controller_main" target="1.8" />
+      <module name="security-controller_test" target="1.8" />
+      <module name="security-domain_main" target="1.8" />
+      <module name="security-domain_test" target="1.8" />
+      <module name="security-exception_main" target="1.8" />
+      <module name="security-exception_test" target="1.8" />
+      <module name="security-repository_main" target="1.8" />
+      <module name="security-repository_test" target="1.8" />
+      <module name="security-service_main" target="1.8" />
+      <module name="security-service_test" target="1.8" />
+      <module name="security_main" target="1.8" />
+      <module name="security_test" target="1.8" />
+      <module name="sync_main" target="1.8" />
+      <module name="sync_test" target="1.8" />
+      <module name="user-controller_main" target="1.8" />
+      <module name="user-controller_test" target="1.8" />
+      <module name="user-domain_main" target="1.8" />
+      <module name="user-domain_test" target="1.8" />
+      <module name="user-exception_main" target="1.8" />
+      <module name="user-exception_test" target="1.8" />
+      <module name="user-repository_main" target="1.8" />
+      <module name="user-repository_test" target="1.8" />
+      <module name="user-service_main" target="1.8" />
+      <module name="user-service_test" target="1.8" />
+      <module name="user-vo_main" target="1.8" />
+      <module name="user-vo_test" target="1.8" />
+      <module name="user_main" target="1.8" />
+      <module name="user_test" target="1.8" />
+    </bytecodeTargetLevel>
+  </component>
+</project>

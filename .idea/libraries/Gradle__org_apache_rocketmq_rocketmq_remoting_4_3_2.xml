@@ -1,0 +1,11 @@
+<component name="libraryTable">
+  <library name="Gradle: org.apache.rocketmq:rocketmq-remoting:4.3.2">
+    <CLASSES>
+      <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.apache.rocketmq/rocketmq-remoting/4.3.2/219b21f5214a40884e5fcab15f05b38964640df2/rocketmq-remoting-4.3.2.jar!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES>
+      <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.apache.rocketmq/rocketmq-remoting/4.3.2/8615f10dcd65fdb1d1ad97c68ec72ed8b9845604/rocketmq-remoting-4.3.2-sources.jar!/" />
+    </SOURCES>
+  </library>
+</component>

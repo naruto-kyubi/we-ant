@@ -1,0 +1,11 @@
+<component name="libraryTable">
+  <library name="Gradle: com.aliyun.openservices:aliware-apache-rocketmq-cloud:1.0">
+    <CLASSES>
+      <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/com.aliyun.openservices/aliware-apache-rocketmq-cloud/1.0/42af9aa52aadccd2802fc30b6312cd7a50683642/aliware-apache-rocketmq-cloud-1.0.jar!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES>
+      <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/com.aliyun.openservices/aliware-apache-rocketmq-cloud/1.0/c4f51061914514259948372a0a02cfa23ae421e3/aliware-apache-rocketmq-cloud-1.0-sources.jar!/" />
+    </SOURCES>
+  </library>
+</component>

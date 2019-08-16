@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/article.iml" filepath="$PROJECT_DIR$/.idea/modules/article.iml" group="article" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/article/controller/article-controller.iml" filepath="$PROJECT_DIR$/.idea/modules/article/controller/article-controller.iml" group="article/article-controller" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/article/controller/article-controller_main.iml" filepath="$PROJECT_DIR$/.idea/modules/article/controller/article-controller_main.iml" group="article/article-controller" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/article/controller/article-controller_test.iml" filepath="$PROJECT_DIR$/.idea/modules/article/controller/article-controller_test.iml" group="article/article-controller" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/article-domain.iml" filepath="$PROJECT_DIR$/.idea/modules/article-domain.iml" group="article/article-domain" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/article/domain/article-domain_main.iml" filepath="$PROJECT_DIR$/.idea/modules/article/domain/article-domain_main.iml" group="article/article-domain" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/article/domain/article-domain_test.iml" filepath="$PROJECT_DIR$/.idea/modules/article/domain/article-domain_test.iml" group="article/article-domain" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/article-repository.iml" filepath="$PROJECT_DIR$/.idea/modules/article-repository.iml" group="article/article-repository" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/article/repository/article-repository_main.iml" filepath="$PROJECT_DIR$/.idea/modules/article/repository/article-repository_main.iml" group="article/article-repository" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/article/repository/article-repository_test.iml" filepath="$PROJECT_DIR$/.idea/modules/article/repository/article-repository_test.iml" group="article/article-repository" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/article-service.iml" filepath="$PROJECT_DIR$/.idea/modules/article-service.iml" group="article/article-service" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/article/service/article-service_main.iml" filepath="$PROJECT_DIR$/.idea/modules/article/service/article-service_main.iml" group="article/article-service" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/article/service/article-service_test.iml" filepath="$PROJECT_DIR$/.idea/modules/article/service/article-service_test.iml" group="article/article-service" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/article-vo.iml" filepath="$PROJECT_DIR$/.idea/modules/article-vo.iml" group="article/article-vo" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/article/vo/article-vo_main.iml" filepath="$PROJECT_DIR$/.idea/modules/article/vo/article-vo_main.iml" group="article/article-vo" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/article/vo/article-vo_test.iml" filepath="$PROJECT_DIR$/.idea/modules/article/vo/article-vo_test.iml" group="article/article-vo" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/article/article_main.iml" filepath="$PROJECT_DIR$/.idea/modules/article/article_main.iml" group="article" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/article/article_test.iml" filepath="$PROJECT_DIR$/.idea/modules/article/article_test.iml" group="article" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/boot.iml" filepath="$PROJECT_DIR$/.idea/modules/boot.iml" group="boot" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/boot/boot_main.iml" filepath="$PROJECT_DIR$/.idea/modules/boot/boot_main.iml" group="boot" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/boot/boot_test.iml" filepath="$PROJECT_DIR$/.idea/modules/boot/boot_test.iml" group="boot" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/captcha.iml" filepath="$PROJECT_DIR$/.idea/modules/captcha.iml" group="captcha" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/captcha/captcha_main.iml" filepath="$PROJECT_DIR$/.idea/modules/captcha/captcha_main.iml" group="captcha" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/captcha/captcha_test.iml" filepath="$PROJECT_DIR$/.idea/modules/captcha/captcha_test.iml" group="captcha" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/common.iml" filepath="$PROJECT_DIR$/.idea/modules/common.iml" group="common" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/common/common_main.iml" filepath="$PROJECT_DIR$/.idea/modules/common/common_main.iml" group="common" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/common/common_test.iml" filepath="$PROJECT_DIR$/.idea/modules/common/common_test.iml" group="common" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/core/core.iml" filepath="$PROJECT_DIR$/.idea/modules/core/core.iml" group="core" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/core/core_main.iml" filepath="$PROJECT_DIR$/.idea/modules/core/core_main.iml" group="core" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/core/core_test.iml" filepath="$PROJECT_DIR$/.idea/modules/core/core_test.iml" group="core" />
+      <module fileurl="file://$PROJECT_DIR$/framework.iml" filepath="$PROJECT_DIR$/framework.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/search.iml" filepath="$PROJECT_DIR$/.idea/modules/search.iml" group="search" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/search/search_main.iml" filepath="$PROJECT_DIR$/.idea/modules/search/search_main.iml" group="search" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/search/search_test.iml" filepath="$PROJECT_DIR$/.idea/modules/search/search_test.iml" group="search" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/security.iml" filepath="$PROJECT_DIR$/.idea/modules/security.iml" group="security" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/security-controller.iml" filepath="$PROJECT_DIR$/.idea/modules/security-controller.iml" group="security/security-controller" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/security/controller/security-controller_main.iml" filepath="$PROJECT_DIR$/.idea/modules/security/controller/security-controller_main.iml" group="security/security-controller" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/security/controller/security-controller_test.iml" filepath="$PROJECT_DIR$/.idea/modules/security/controller/security-controller_test.iml" group="security/security-controller" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/security-domain.iml" filepath="$PROJECT_DIR$/.idea/modules/security-domain.iml" group="security/security-domain" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/security/domain/security-domain_main.iml" filepath="$PROJECT_DIR$/.idea/modules/security/domain/security-domain_main.iml" group="security/security-domain" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/security/domain/security-domain_test.iml" filepath="$PROJECT_DIR$/.idea/modules/security/domain/security-domain_test.iml" group="security/security-domain" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/security-exception.iml" filepath="$PROJECT_DIR$/.idea/modules/security-exception.iml" group="security/security-exception" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/security/exception/security-exception_main.iml" filepath="$PROJECT_DIR$/.idea/modules/security/exception/security-exception_main.iml" group="security/security-exception" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/security/exception/security-exception_test.iml" filepath="$PROJECT_DIR$/.idea/modules/security/exception/security-exception_test.iml" group="security/security-exception" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/security-repository.iml" filepath="$PROJECT_DIR$/.idea/modules/security-repository.iml" group="security/security-repository" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/security/repository/security-repository_main.iml" filepath="$PROJECT_DIR$/.idea/modules/security/repository/security-repository_main.iml" group="security/security-repository" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/security/repository/security-repository_test.iml" filepath="$PROJECT_DIR$/.idea/modules/security/repository/security-repository_test.iml" group="security/security-repository" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/security-service.iml" filepath="$PROJECT_DIR$/.idea/modules/security-service.iml" group="security/security-service" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/security/service/security-service_main.iml" filepath="$PROJECT_DIR$/.idea/modules/security/service/security-service_main.iml" group="security/security-service" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/security/service/security-service_test.iml" filepath="$PROJECT_DIR$/.idea/modules/security/service/security-service_test.iml" group="security/security-service" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/security/security_main.iml" filepath="$PROJECT_DIR$/.idea/modules/security/security_main.iml" group="security" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/security/security_test.iml" filepath="$PROJECT_DIR$/.idea/modules/security/security_test.iml" group="security" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/sync.iml" filepath="$PROJECT_DIR$/.idea/modules/sync.iml" group="sync" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/sync-boot/sync_main.iml" filepath="$PROJECT_DIR$/.idea/modules/sync-boot/sync_main.iml" group="sync" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/sync-boot/sync_test.iml" filepath="$PROJECT_DIR$/.idea/modules/sync-boot/sync_test.iml" group="sync" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/user.iml" filepath="$PROJECT_DIR$/.idea/modules/user.iml" group="user" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/user-controller.iml" filepath="$PROJECT_DIR$/.idea/modules/user-controller.iml" group="user/user-controller" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/user/controller/user-controller_main.iml" filepath="$PROJECT_DIR$/.idea/modules/user/controller/user-controller_main.iml" group="user/user-controller" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/user/controller/user-controller_test.iml" filepath="$PROJECT_DIR$/.idea/modules/user/controller/user-controller_test.iml" group="user/user-controller" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/user-domain.iml" filepath="$PROJECT_DIR$/.idea/modules/user-domain.iml" group="user/user-domain" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/user/domain/user-domain_main.iml" filepath="$PROJECT_DIR$/.idea/modules/user/domain/user-domain_main.iml" group="user/user-domain" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/user/domain/user-domain_test.iml" filepath="$PROJECT_DIR$/.idea/modules/user/domain/user-domain_test.iml" group="user/user-domain" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/user-exception.iml" filepath="$PROJECT_DIR$/.idea/modules/user-exception.iml" group="user/user-exception" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/user/exception/user-exception_main.iml" filepath="$PROJECT_DIR$/.idea/modules/user/exception/user-exception_main.iml" group="user/user-exception" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/user/exception/user-exception_test.iml" filepath="$PROJECT_DIR$/.idea/modules/user/exception/user-exception_test.iml" group="user/user-exception" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/user-repository.iml" filepath="$PROJECT_DIR$/.idea/modules/user-repository.iml" group="user/user-repository" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/user/repository/user-repository_main.iml" filepath="$PROJECT_DIR$/.idea/modules/user/repository/user-repository_main.iml" group="user/user-repository" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/user/repository/user-repository_test.iml" filepath="$PROJECT_DIR$/.idea/modules/user/repository/user-repository_test.iml" group="user/user-repository" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/user-service.iml" filepath="$PROJECT_DIR$/.idea/modules/user-service.iml" group="user/user-service" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/user/service/user-service_main.iml" filepath="$PROJECT_DIR$/.idea/modules/user/service/user-service_main.iml" group="user/user-service" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/user/service/user-service_test.iml" filepath="$PROJECT_DIR$/.idea/modules/user/service/user-service_test.iml" group="user/user-service" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/user-vo.iml" filepath="$PROJECT_DIR$/.idea/modules/user-vo.iml" group="user/user-vo" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/user/vo/user-vo_main.iml" filepath="$PROJECT_DIR$/.idea/modules/user/vo/user-vo_main.iml" group="user/user-vo" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/user/vo/user-vo_test.iml" filepath="$PROJECT_DIR$/.idea/modules/user/vo/user-vo_test.iml" group="user/user-vo" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/user/user_main.iml" filepath="$PROJECT_DIR$/.idea/modules/user/user_main.iml" group="user" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/user/user_test.iml" filepath="$PROJECT_DIR$/.idea/modules/user/user_test.iml" group="user" />
+    </modules>
+  </component>
+</project>

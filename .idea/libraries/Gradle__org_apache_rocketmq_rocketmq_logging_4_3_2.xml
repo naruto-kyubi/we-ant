@@ -1,0 +1,11 @@
+<component name="libraryTable">
+  <library name="Gradle: org.apache.rocketmq:rocketmq-logging:4.3.2">
+    <CLASSES>
+      <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.apache.rocketmq/rocketmq-logging/4.3.2/513e65cca6d5f0d9a929f5a9afa54ac6956f42fd/rocketmq-logging-4.3.2.jar!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES>
+      <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.apache.rocketmq/rocketmq-logging/4.3.2/1b1684cd48c63897d39b710c2d7370400b5147ec/rocketmq-logging-4.3.2-sources.jar!/" />
+    </SOURCES>
+  </library>
+</component>
