@@ -36,6 +36,6 @@ public class Mysql2EsSyncApplication implements CommandLineRunner {
 
     @Override
     public void run(String... args) throws Exception {
-        mysql2ESService.sync();
+//        mysql2ESService.sync();
     }
 }
