@@ -20,6 +20,7 @@ import javax.servlet.http.HttpServletResponse;
 import java.text.SimpleDateFormat;
 import java.util.Calendar;
 import java.util.Date;
+import java.util.HashMap;
 import java.util.Map;
 
 @RestController
@@ -129,6 +130,21 @@ public class ArticleController {
         User user = sessionUtils.getCurrentUser(request);
         map. put("currentUserId",user.getId());
         Page page = articleService.queryFollowArticles(map);
+        return ResponseEntity.ok(ResultEntity.ok(page.getContent(), PageUtils.wrapperPagination(page)));
+    }
+
+    @ResponseBody
+    @RequestMapping(value = "/v1/users/{userId}/articles", method = RequestMethod.GET, produces = {"application/json;charset=UTF-8"})
+    public ResponseEntity<ResultEntity> queryUser10Articles(
+            @PathVariable("userId") String userId,
+            HttpServletRequest request, HttpServletResponse response) {
+
+        Map map = new HashMap();
+        map.put("owner.id",userId);
+        map.put("sorter","updatedAt_DESC");
+        map.put("currentPage",1);
+        map.put("pageSize",10);
+        Page page = articleService.queryArticleByPage(map);
         return ResponseEntity.ok(ResultEntity.ok(page.getContent(), PageUtils.wrapperPagination(page)));
     }
 
