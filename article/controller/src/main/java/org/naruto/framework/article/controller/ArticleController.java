@@ -101,25 +101,25 @@ public class ArticleController {
         return ResponseEntity.ok(ResultEntity.ok(articleService.saveComment(comment)));
     }
 
-    @ResponseBody
-    @RequestMapping(value = "/v1/articles/hot", method = RequestMethod.GET, produces = {"application/json;charset=UTF-8"})
-    public ResponseEntity<ResultEntity> queryHotList(
-            @RequestParam(required = false) Map map,
-            HttpServletRequest request, HttpServletResponse response) {
-
-        SimpleDateFormat format = new SimpleDateFormat("yyyy-MM-dd HH:mm:ss");
-        Calendar c = Calendar.getInstance();
-        Date currentDate = c.getTime();
-        c.add(Calendar.DATE, - 7);
-        Date beforeDate = c.getTime();
-        format.format(currentDate);
-        map.put("sorter","viewCount_desc,updatedAt_desc");
-        map.put("status_equal", ArticleStatus.PUBLISH.toString());
-        map.put("updatedAt_between",format.format(beforeDate) + "," + format.format(currentDate));
-
-        Page page = articleService.queryArticleByPage(map);
-        return ResponseEntity.ok(ResultEntity.ok(page.getContent(), PageUtils.wrapperPagination(page)));
-    }
+//    @ResponseBody
+//    @RequestMapping(value = "/v1/articles/hot", method = RequestMethod.GET, produces = {"application/json;charset=UTF-8"})
+//    public ResponseEntity<ResultEntity> queryHotList(
+//            @RequestParam(required = false) Map map,
+//            HttpServletRequest request, HttpServletResponse response) {
+//
+//        SimpleDateFormat format = new SimpleDateFormat("yyyy-MM-dd HH:mm:ss");
+//        Calendar c = Calendar.getInstance();
+//        Date currentDate = c.getTime();
+//        c.add(Calendar.DATE, - 7);
+//        Date beforeDate = c.getTime();
+//        format.format(currentDate);
+//        map.put("sorter","viewCount_desc,updatedAt_desc");
+//        map.put("status_equal", ArticleStatus.PUBLISH.toString());
+//        map.put("updatedAt_between",format.format(beforeDate) + "," + format.format(currentDate));
+//
+//        Page page = articleService.queryArticleByPage(map);
+//        return ResponseEntity.ok(ResultEntity.ok(page.getContent(), PageUtils.wrapperPagination(page)));
+//    }
 
     @ResponseBody
     @RequestMapping(value = "/v1/follows/articles", method = RequestMethod.GET, produces = {"application/json;charset=UTF-8"})

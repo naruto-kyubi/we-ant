@@ -1,6 +1,11 @@
 package org.naruto.framework.article.controller;
 
+import org.naruto.framework.article.domain.AccessLog;
+import org.naruto.framework.article.domain.Article;
+import org.naruto.framework.article.service.AccessLogService;
 import org.naruto.framework.article.service.ArticleService;
+import org.naruto.framework.core.security.SessionUtils;
+import org.naruto.framework.user.domain.User;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Component;
 import org.springframework.web.method.HandlerMethod;
@@ -19,6 +24,13 @@ public class ArticleReadedStatInterceptor implements HandlerInterceptor {
     @Autowired
     private ArticleService articleService;
 
+    @Autowired
+    private AccessLogService accessLogService;
+
+    @Autowired
+    private SessionUtils sessionUtils;
+
+
     @Override
     public void postHandle(HttpServletRequest request, HttpServletResponse response, Object handler, ModelAndView modelAndView) throws Exception {
         if (!(handler instanceof HandlerMethod)) {
@@ -34,6 +46,18 @@ public class ArticleReadedStatInterceptor implements HandlerInterceptor {
             case "GET":
                 Map pathVariables = (Map) request.getAttribute(HandlerMapping.URI_TEMPLATE_VARIABLES_ATTRIBUTE);
                 String id = (String) pathVariables.get("id");
+
+                AccessLog accessLog = new AccessLog();
+
+                User user = sessionUtils.getCurrentUser(request);
+                String userId=null;
+                if(null!=user){
+                    //login user access;
+                    userId = user.getId();
+                }
+                accessLog.setUserId(userId);
+                accessLog.setArticle(new Article(id));
+                accessLogService.save(accessLog);
 
                 articleService.increaseViewCount(id);
                 break;
